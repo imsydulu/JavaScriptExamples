@@ -1,0 +1,41 @@
+var a = 10;
+var b = 20;
+console.log("the post increment of a is: " + (a++));
+console.log("the post decrement of b is: " + (b--));
+// unary operators
+console.log("the value of a after incrementing is: " + (++a));
+console.log("the value of b after decrementing is: " + (--b));
+console.log("the value of a after negation is: " + (-a));
+console.log("the value of b after negation is: " + (-b));
+
+console.log("the value of a after type conversion is: " + (a.toString()));
+console.log("the value of b after type conversion is: " + (b.toString()));
+console.log("the value of a after type conversion to number is: " + (Number(a)));
+console.log("the value of b after type conversion to number is: " + (Number(b)));
+console.log("the value of a after type conversion to boolean is: " + (Boolean(a)));
+console.log("the value of b after type conversion to boolean is: " + (Boolean(b)));
+console.log("the value of a after type conversion to string is: " + (String(a)));
+console.log("the value of b after type conversion to string is: " + (String(b)));
+console.log("the value of a after type conversion to object is: " + (Object(a)));
+console.log("the value of b after type conversion to object is: " + (Object(b)));
+console.log("the value of a after type conversion to array is: " + (Array(a)));
+console.log("the value of b after type conversion to array is: " + (Array(b)));
+console.log("the value of a after type conversion to function is: " + (Function(a)));
+console.log("the value of b after type conversion to function is: " + (Function(b)));
+//console.log("the value of a after type conversion to symbol is: " + (Symbol(a)));
+//console.log("the value of b after type conversion to symbol is: " + (Symbol(b)));
+console.log("the value of a after type conversion to bigint is: " + (BigInt(a)));
+console.log("the value of b after type conversion to bigint is: " + (BigInt(b)));
+//console.log("the value of a after type conversion to undefined is: " + (undefined(a)));
+//console.log("the value of b after type conversion to undefined is: " + (undefined(b)));
+//console.log("the value of a after type conversion to null is: " + (null(a)));
+//console.log("the value of b after type conversion to null is: " + (null(b)));
+//console.log("the value of a after type conversion to NaN is: " + (NaN(a)));
+//console.log("the value of b after type conversion to NaN is: " + (NaN(b)));
+//console.log("the value of a after type conversion to Infinity is: " + (Infinity(a)));
+//console.log("the value of b after type conversion to Infinity is: " + (Infinity(b)));
+//console.log("the value of a after type conversion to -Infinity is: " + (-Infinity(a)));
+//console.log("the value of b after type conversion to -Infinity is: " + (-Infinity(b)));
+//console.log("the value of a after type conversion to NaN is: " + (isNaN(a)));
+//console.log("the value of b after type conversion to NaN is: " + (isNaN(b)));
+
