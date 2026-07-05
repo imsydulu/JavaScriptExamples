@@ -13,10 +13,12 @@ examp();
 
 function outSideFun1() {
     let count = 0;
+    console.log("outside function");
     return function insideFun1() {
         count++;
         console.log("From inside function: " + count);
     };
+    console.log("outside function");//after return nothing will execute.
 }
 
 outSideFun1()();// outSideFun1()(); 
