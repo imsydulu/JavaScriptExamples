@@ -1,0 +1,6 @@
+async function fetchFunc() {
+    const resp = await fetch("http://catfact.ninja/fact");
+    //console.log(resp);
+    console.log(await resp.json());
+}
+fetchFunc();
